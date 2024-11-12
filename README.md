@@ -1,5 +1,5 @@
 # DATE:
-# LU Decomposition 
+# EXP -5: LU Decomposition 
 
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
@@ -24,19 +24,11 @@ a=np.array(eval(input()))
 p,l,u=lu(a)
 print(l)
 print(u)
-/*
-Program to find the L and U matrix.
-Developed by: A K PREETHI
-RegisterNumber: 212223230156
-*/
+
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: PREETHI A K
-RegisterNumber: 212223230156
-*/
+
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 a=np.array(eval(input()))
